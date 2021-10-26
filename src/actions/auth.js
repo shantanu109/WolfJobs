@@ -151,7 +151,47 @@ export function editUserFailed(error) {
   };
 }
 
-export function editUser(height,weight,goal,target,userId) {
+// export function editUser(height,weight,goal,target,userId) {
+
+//   return (dispatch) => {
+
+//     const url = APIURLS.editProfile();
+
+//     fetch(url,{
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/x-www-form-urlencoded',
+//         //'Authorization': `Bearer ${getAuthTokenFromLocalStorage()}`
+//       },
+//       body: getFormBody({
+//         height,
+//         weight,
+//         goal,
+//         target,
+//         id: userId
+//       }),
+
+//     })
+//     .then(response => response.json())
+//     .then(data => {
+//       console.log('EDIT PROFILE data',data);
+//       if (data.success) {
+//         dispatch(editUserSucessfull(data.data.user));
+
+//         if (data.data.token){
+//           localStorage.setItem('token',data.data.token)
+//         }
+//         return;
+//       }
+
+//       dispatch(editUserFailed(data.message))
+
+//     })
+
+//   }
+// }
+
+export function editUser(name,password,confirmPassword, userId,role) {
 
   return (dispatch) => {
 
@@ -164,11 +204,11 @@ export function editUser(height,weight,goal,target,userId) {
         //'Authorization': `Bearer ${getAuthTokenFromLocalStorage()}`
       },
       body: getFormBody({
-        height,
-        weight,
-        goal,
-        target,
-        id: userId
+        name,
+        password,
+        confirm_password: confirmPassword,
+        id: userId,
+        role
       }),
 
     })
@@ -190,6 +230,4 @@ export function editUser(height,weight,goal,target,userId) {
 
   }
 }
-
-
 
