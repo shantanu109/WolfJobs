@@ -67,7 +67,7 @@ export function login(email, password) {
 
 
 
-export function signup(email, password, confirmPassword, name) {
+export function signup(email, password, confirmPassword, name, role) {
   return (dispatch) => {
     const url = APIURLS.signup();
     fetch(url, {
@@ -80,6 +80,7 @@ export function signup(email, password, confirmPassword, name) {
         password,
         confirm_password: confirmPassword,
         name,
+        role
       }),
     })
       .then((response) => response.json())

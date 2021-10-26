@@ -15,6 +15,7 @@ class Signup extends Component {
       password: '',
       name: '',
       confirmPassword: '',
+      role: ''
     };
   }
 
@@ -30,11 +31,11 @@ class Signup extends Component {
 
   onFormSubmit = (e) => {
     e.preventDefault();
-    const { email, password, confirmPassword, name } = this.state;
+    const { email, password, confirmPassword, name, role } = this.state;
 
-    if (email && password && confirmPassword && name) {
+    if (email && password && confirmPassword && name && role) {
       this.props.dispatch(startSingup());
-      this.props.dispatch(signup(email, password, confirmPassword, name));
+      this.props.dispatch(signup(email, password, confirmPassword, name, role));
     }
   };
 
@@ -92,6 +93,10 @@ class Signup extends Component {
             onChange={(e) => this.handleInputChange('password', e.target.value)}
           />
         </div>
+        <select value={this.state.role} onChange={(e) => this.handleInputChange('role', e.target.value)}>
+          <option value="Manager">Manager</option>
+          <option value="Applicant">Applicant</option>
+        </select>
         <div className="field">
           <button onClick={this.onFormSubmit} disabled={inProgress}>
             Signup
