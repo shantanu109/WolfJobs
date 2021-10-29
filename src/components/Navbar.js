@@ -26,6 +26,7 @@ class Navbar extends React.Component {
   
   render() {
     const { auth } = this.props;
+    const {user} = this.props.auth;
 
     return (
       
@@ -69,13 +70,15 @@ class Navbar extends React.Component {
           )} */}
         {/* </div> */}
         </div>
-        {auth.isLoggedIn &&
+        {auth.isLoggedIn  &&
         <div className="header__middle" style={{marginLeft:'70px'}}>
+          {user.role == 'Manager' && 
           <div className="header__option ">
-            <Link to="/">
-            <HomeIcon fontSize="large"/>
-            </Link>
-          </div>
+          <Link to="/">
+          <HomeIcon fontSize="large"/>
+          </Link>
+        </div>}
+          
           <div className="header__option ">
             <Link to="/goal">
             <FlagIcon fontSize="large"/>

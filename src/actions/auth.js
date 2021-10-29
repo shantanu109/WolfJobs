@@ -191,7 +191,7 @@ export function editUserFailed(error) {
 //   }
 // }
 
-export function editUser(name,password,confirmPassword, userId,role) {
+export function editUser(name,password,confirmPassword, userId,role,address,phonenumber,hours,dob,gender,skills) {
 
   return (dispatch) => {
 
@@ -208,7 +208,13 @@ export function editUser(name,password,confirmPassword, userId,role) {
         password,
         confirm_password: confirmPassword,
         id: userId,
-        role
+        role,
+        address,
+        phonenumber,
+        hours,
+        dob,
+        gender,
+        skills
       }),
 
     })
