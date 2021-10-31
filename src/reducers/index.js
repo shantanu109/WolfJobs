@@ -3,10 +3,12 @@ import auth from './auth';
 import search from './search';
 import food from './food';
 import history from './history';
+import job from './job'
 
 export default combineReducers({
     auth,
     search,
     food,
     history,
+    job
 })

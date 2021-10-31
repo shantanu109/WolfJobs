@@ -1,4 +1,4 @@
-import { APIURLS } from '../helpers/urls';
+import { APIURLS } from "../helpers/urls";
 import {
   LOGIN_START,
   LOGIN_FAILED,
@@ -10,10 +10,10 @@ import {
   SIGNUP_SUCCESS,
   CLEAR_AUTH_STATE,
   EDIT_USER_SUCCESSFULL,
-  EDIT_USER_FAILED
-} from './actionTypes';
-import { getFormBody } from '../helpers/utils';
-import {getAuthTokenFromLocalStorage} from '../helpers/utils';
+  EDIT_USER_FAILED,
+} from "./actionTypes";
+import { getFormBody } from "../helpers/utils";
+import { getAuthTokenFromLocalStorage } from "../helpers/utils";
 // import { fetchUserFriends } from '../actions/friends';
 
 export function startLogin() {
@@ -42,21 +42,21 @@ export function login(email, password) {
     const url = APIURLS.login();
 
     fetch(url, {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
+        "Content-Type": "application/x-www-form-urlencoded",
       },
       body: getFormBody({ email, password }),
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log('data', data);
+        console.log("data", data);
 
         if (data.success) {
           //dispatch action to save user
-          localStorage.setItem('token', data.data.token);
+          localStorage.setItem("token", data.data.token);
           dispatch(loginSuccess(data.data.user));
-        //   dispatch(fetchUserFriends(data.data.user._id));
+          //   dispatch(fetchUserFriends(data.data.user._id));
           return;
         }
         dispatch(loginFailed(data.message));
@@ -64,23 +64,20 @@ export function login(email, password) {
   };
 }
 
-
-
-
 export function signup(email, password, confirmPassword, name, role) {
   return (dispatch) => {
     const url = APIURLS.signup();
     fetch(url, {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
+        "Content-Type": "application/x-www-form-urlencoded",
       },
       body: getFormBody({
         email,
         password,
         confirm_password: confirmPassword,
         name,
-        role
+        role,
       }),
     })
       .then((response) => response.json())
@@ -88,7 +85,7 @@ export function signup(email, password, confirmPassword, name, role) {
         // console.log('data', data);
         if (data.success) {
           // do something
-          localStorage.setItem('token', data.data.token);
+          localStorage.setItem("token", data.data.token);
           dispatch(signupSuccessful(data.data.user));
           return;
         }
@@ -116,7 +113,6 @@ export function signupSuccessful(user) {
     user,
   };
 }
-
 export function authenticateUser(user) {
   return {
     type: AUTHENTICATE_USER,
@@ -130,24 +126,23 @@ export function logoutUser() {
   };
 }
 
-export function clearAuthState () {
-  return {  
-    type: CLEAR_AUTH_STATE
-  }
+export function clearAuthState() {
+  return {
+    type: CLEAR_AUTH_STATE,
+  };
 }
-
 
 export function editUserSucessfull(user) {
   return {
     type: EDIT_USER_SUCCESSFULL,
-    user
+    user,
   };
 }
 
 export function editUserFailed(error) {
   return {
     type: EDIT_USER_FAILED,
-    error
+    error,
   };
 }
 
@@ -191,16 +186,26 @@ export function editUserFailed(error) {
 //   }
 // }
 
-export function editUser(name,password,confirmPassword, userId,role,address,phonenumber,hours,dob,gender,skills) {
-
+export function editUser(
+  name,
+  password,
+  confirmPassword,
+  userId,
+  role,
+  address,
+  phonenumber,
+  hours,
+  dob,
+  gender,
+  skills
+) {
   return (dispatch) => {
-
     const url = APIURLS.editProfile();
 
-    fetch(url,{
-      method: 'POST',
+    fetch(url, {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
+        "Content-Type": "application/x-www-form-urlencoded",
         //'Authorization': `Bearer ${getAuthTokenFromLocalStorage()}`
       },
       body: getFormBody({
@@ -214,26 +219,22 @@ export function editUser(name,password,confirmPassword, userId,role,address,phon
         hours,
         dob,
         gender,
-        skills
+        skills,
       }),
-
     })
-    .then(response => response.json())
-    .then(data => {
-      console.log('EDIT PROFILE data',data);
-      if (data.success) {
-        dispatch(editUserSucessfull(data.data.user));
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("EDIT PROFILE data", data);
+        if (data.success) {
+          dispatch(editUserSucessfull(data.data.user));
 
-        if (data.data.token){
-          localStorage.setItem('token',data.data.token)
+          if (data.data.token) {
+            localStorage.setItem("token", data.data.token);
+          }
+          return;
         }
-        return;
-      }
 
-      dispatch(editUserFailed(data.message))
-
-    })
-
-  }
+        dispatch(editUserFailed(data.message));
+      });
+  };
 }
-

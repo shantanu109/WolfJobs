@@ -16,6 +16,9 @@ export const LOG_OUT = "LOG_OUT";
 
 export const CLEAR_AUTH_STATE = "CLEAR_AUTH_STATE";
 
+export const ADD_JOB = "ADD_JOB";
+export const UPDATE_JOB = "UPDATE_JOB";
+
 export const EDIT_USER_SUCCESSFULL = "EDIT_USER_SUCCESSFULL";
 export const EDIT_USER_FAILED = "EDIT_USER_FAILED";
 

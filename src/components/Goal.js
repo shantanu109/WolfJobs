@@ -12,6 +12,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import {makeStyles} from '@material-ui/core/styles';
 import Card1 from './Card1';
 import Widgets from './Widgets.js';
+import {createJob} from '../actions/job';
 
 
 class Goal extends Component {
@@ -19,10 +20,14 @@ class Goal extends Component {
         super(props);
     
         this.state = {
-          date:'',
-          burnin: '',
-          burnout:0,
-          total:0,
+          name:'',
+          skills: '',
+          managerid:'',
+          status:'0',
+          location:'',
+          description:'',
+          pay:'',
+          schedule:'',
           editMode: false,
         };
       }
@@ -38,114 +43,102 @@ class Goal extends Component {
 
    
 
-    countTotal = (calories) => {
-        
-        const { user } = this.props.auth;
-        const { dispatch } = this.props;
-        const {total} = this.state
-        
-
-        dispatch(addTotal(parseInt(calories)+parseInt(total)));
-        this.setState({
-            total:parseInt(calories)+parseInt(total)
-        })
-
-        console.log(this.state.date)
-        
-        // dispatch(addLike(commentId, 'Comment', user._id,postId));
-        
-
-    }
-
-
     clearSearch = () => {
         this.props.dispatch(clearsearchstate([]))
         console.log("UNMOUNT")
 
     }
 
-    handleChange = (fieldName,val) => {
+    handleInputChange = (fieldName,val) => {
 
         this.setState({
             [fieldName]: val
         })
 
-        console.log(this.state.burnout)
+        
     
       }
 
     
   handleSave = () => {
 
-    const {date,total,burnout} = this.state;
+    const {name,skills,status,location,description,pay,schedule} = this.state;
 
     const {user} = this.props.auth;
 
-    this.props.dispatch(editHistory(date.toString().slice(0,10),total,burnout,user._id))
+    this.props.dispatch(createJob(name,skills,user._id,status,location,description,pay,schedule))
 
   }
 
     
     
     render() {
-        const { auth,results } = this.props;
-        const { user } = this.props.auth;
-        const { dispatch } = this.props;
-        const {total} = this.props;
-        // const overall = 0;
-        const {error} = this.props.auth;
+       
+      const {error} = this.props.auth;
         
         
         return (
             <div>
                 
            <div className="goal-form" style={{width:'600px',height:'400px',marginLeft:'100px'}} >
-           <span className="login-signup-header">Today's Calories</span>
+           <span className="login-signup-header">Add Job</span>
             {error && <div className="alert error-dailog">{error}</div>}
-            <div className="field">
-                <div style={{marginBottom:'-10px',color:'rgba(121, 121, 121)',marginTop:'30px',marginLeft:'3px',fontSize:'16px'}}>Select Date</div>
-                 <DatePicker selected={this.state.date} onChange={date => this.setState({date})} minDate={new Date()} maxDate={new Date()} />
-            </div>
-            {/* <form className="login-form"> */}
             
+            {/* <form className="login-form"> */}
+
             <div className="field">
-            {/* <SearchIcon/> */}
-          <input placeholder="Select Food" onChange={this.handleSearch} />
-          {results.length > 0 && (
-            <div className="search-results" style={{marginTop:'305px',width:'345px'}}>
-              <ul>
-                {results.slice(0,5).map((user) => (
-                  <li className="search-results-row" key={user._id} onClick={this.clearSearch}>
-                    
-                    <div onClick={() => this.countTotal(user.Calories)}>
-                    <span>{user.Food} ({user.Calories})</span>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+          <input
+            placeholder="Job Name"
+            type="text"
+            required
+            onChange={(e) => this.handleInputChange('name', e.target.value)}
+          />
         </div>
-        
 
         <div className="field">
-          {/* <div className="field-label">Burn Out</div> */}
-                    
-            {this.state.burnout > 0? (<input
-              type="text"
-              onChange={(e) => this.handleChange('burnout',e.target.value)}
-              value={this.state.burnout}
-              placeholder='Burn Out'
-            />) : (<input
+          <input
+            placeholder="Skills"
             type="text"
-            onChange={(e) => this.handleChange('burnout',e.target.value)}
-            value=''
-            placeholder='Burn Out'
-          />)}
-            
-          
-          
+            required
+            onChange={(e) => this.handleInputChange('skills', e.target.value)}
+          />
         </div>
+
+        <div className="field">
+          <input
+            placeholder="Location"
+            type="text"
+            required
+            onChange={(e) => this.handleInputChange('location', e.target.value)}
+          />
+        </div>
+        <div className="field">
+          <input
+            placeholder="Description"
+            type="text"
+            required
+            onChange={(e) => this.handleInputChange('description', e.target.value)}
+          />
+        </div>
+
+        <div className="field">
+          <input
+            placeholder="Pay"
+            type="text"
+            required
+            onChange={(e) => this.handleInputChange('pay', e.target.value)}
+          />
+        </div>
+
+        <div className="field">
+          <input
+            placeholder="Schedule"
+            type="text"
+            required
+            onChange={(e) => this.handleInputChange('schedule', e.target.value)}
+          />
+        </div>
+        
         
         <div className="field">
         <button className="button save-btn" onClick={this.handleSave} >Save</button>
@@ -153,25 +146,7 @@ class Goal extends Component {
         
 
         </div>
-        <div className="home__section" style={{width:'600px',marginLeft:'70px',marginTop:'-70px'}}>
-                {/* <Card1 src="/images/R52.jpg" title="Summary" description=''/> */}
-                <div className='card'>
-            
-                <div className="card__info" style={{width:'600px'}}>
-                
-                <h2>Calories Gain</h2><h4>{this.state.total}</h4>
-                <h2>Calories Burnt</h2><h4>{this.state.burnout}</h4>
-                <h2>Difference</h2><h4>{this.state.burnout.length > 0 && parseInt(this.state.total)-parseInt(this.state.burnout)}</h4>
-                
-
-            </div>
-
-        </div>
         
-        
-                
-                </div>
-                
                 <Widgets style={{marginTop:'1000px'}}/>
         
         </div>

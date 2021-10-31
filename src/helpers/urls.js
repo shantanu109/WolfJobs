@@ -9,7 +9,7 @@ export const APIURLS = {
     editProfile : () => `${API_ROOT}/users/edit`,
     editHistory : () => `${API_ROOT}/users/createhistory`,
     getHistory: (date,userId) => `${API_ROOT}/users/gethistory?id=${userId}&date=${date}`,
-   
+    createJob: () => `${API_ROOT}/users/createjob`,
     userSearch: (searchText) => `${API_ROOT}/users/search/${searchText}`,
     // deletePost: (postId) => `${API_ROOT}/posts/destroy/${postId}`,
     // deleteComment: (commentId) => `${API_ROOT}/posts/destroycomment/${commentId}`
