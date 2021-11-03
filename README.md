@@ -129,10 +129,10 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 # Contributors
   <table>
   <tr>
-    <td align="center"><a href="https://github.com/atharva1996"><img src="https://avatars.githubusercontent.com/u/16671348?v=4" width="100px;" alt=""/><br /><sub><b>Atharva Patil</b></sub></a></td>
-    <td align="center"><a href="https://github.com/AtharvaJ10"><img src="https://avatars.githubusercontent.com/u/49825649?v=4" width="100px;" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Banpreet13"><img src="https://avatars.githubusercontent.com/u/78414515?v=4" width="100px;" alt=""/><br /><sub><b>Banpreet Singh</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/vaish68"><img src="https://avatars.githubusercontent.com/u/89509351?v=4" width="100px;" alt=""/><br /><sub><b>Vaishnavi Patil</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/shivam-pednekar"><img src="https://avatars.githubusercontent.com/u/62328699?v=4" width="100px;" alt=""/><br /><sub><b>Shivam Pednekar</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/shantanu109"><img src="https://avatars.githubusercontent.com/u/42075794?v=4" width="100px;" alt=""/><br /><sub><b>Atharva Patil</b></sub></a></td>
+    <td align="center"><a href="https://github.com/gargvarun250"><img src="https://avatars.githubusercontent.com/u/89566418?v=4" width="100px;" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Sahil-Nande"><img src="https://avatars.githubusercontent.com/u/89487138?v=4" width="100px;" alt=""/><br /><sub><b>Banpreet Singh</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/urmi6899"><img src="https://avatars.githubusercontent.com/u/53376580?v=4" width="100px;" alt=""/><br /><sub><b>Vaishnavi Patil</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/leanneserrao"><img src="https://avatars.githubusercontent.com/u/25662536?v=4" width="100px;" alt=""/><br /><sub><b>Shivam Pednekar</b></sub></a><br /></td>
   </tr>
 </table>
