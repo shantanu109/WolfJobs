@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/408674383.svg)](https://zenodo.org/badge/latestdoi/408674383)
+[![DOI](https://zenodo.org/badge/408674383.svg)](https://zenodo.org/badge/latestdoi/408674383) 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![Build Status](https://app.travis-ci.com/atharva1996/WolfJobs.svg?branch=master)](https://app.travis-ci.com/atharva1996/WolfJobs)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
