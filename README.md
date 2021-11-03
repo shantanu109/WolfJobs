@@ -67,38 +67,45 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 
 <img width="1200"  src="https://user-images.githubusercontent.com/89509351/135367153-63917738-9c09-4703-81dd-bcf49d86d973.png">
 
-
-
-
-
-
-
-
-
 # Installation Guide
  
- Step 1: 
-  Git Clone the Repository 
-  
-    git clone https://github.com/atharva1996/WolfJobs.git 
-    
-  (OR) Download the .zip file on your local machine
-  
-    https://github.com/atharva1996/WolfJobs.git
-  
- Step 2:
-   Install the required packages by running the following command in the terminal 
-   
-    pip install -r requirements.txt
-    
- Step 3:
-    Run the following command in the terminal
-    
-    python application.py
-    
- Step 4:
-    Open the URL in your browser:  
-      http://127.0.0.1:5000/
+ - Install [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows)
+ - Download and install [NodeJs](https://nodejs.org/en/download/)
+ - Download the Allow CORS: Access-Control-Allow-Origin extension for Google Chrome
+ 
+ - In the command prompt clone the frontend project using following commands:
+#### `git clone https://github.com/shantanu109/WolfJobs.git`
+
+- Then enter
+#### `npm install`
+ to install all the required dependencies in both the terminal. The dependencies have been mentioned in the 'package.json' file.
+
+ - Then enter below command for both the terminals to start the application:
+#### `npm start`
+
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 
+# Source Code
+ - Link to frontend repository: 
+
+# Additional commands for React App
+
+## Available Scripts
+
+In the project directory, you can run:
+
+#### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+#### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
 # Future Scope
   
