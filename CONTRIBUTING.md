@@ -32,4 +32,5 @@ This section guides you through submitting a suggestion for SE Group 28, includi
 
 Enhancement suggestions are tracked as GitHub issues. After you've determined which repository your enhancement suggestion is related to, create an issue on that repository and provide the information like title, step-by-step description, specific examples.<br>
 Giving more detailed information will help us understand the suggestion better.
+### Provide details like 1) what is the enhancement? 2)Suggestions to implement the enhancement
 
