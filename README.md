@@ -86,7 +86,8 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
  
 # Source Code
- - Link to frontend repository: 
+ - Link to frontend repository: https://github.com/shantanu109/WolfJobs
+ - Link to backend repository: https://github.com/shantanu109/WolfJobsBackend
 
 # Additional commands for React App
 
