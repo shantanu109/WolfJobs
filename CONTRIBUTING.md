@@ -1,4 +1,4 @@
-# Contributing to Wolfjobs!!
+# Contributing to WolfJobs!!
 
 The following is a set of guidelines for contributing to BurnOut. We are open to suggestions to enhance our project.
 
