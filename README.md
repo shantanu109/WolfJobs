@@ -7,6 +7,8 @@
 ![last commit](https://img.shields.io/github/last-commit/atharva1996/wolfjobs)
 ![total lines](https://img.shields.io/tokei/lines/github/atharva1996/wolfjobs)
 
+![WolfJobs Logo](https://user-images.githubusercontent.com/89487138/140389503-29cb0c25-83d0-4196-9bfb-7d1ecc863412.png)
+![Banner](https://www.schoolcraft.edu/wp-content/uploads/2021/07/student-employee-open-house-graphic.png)
 # WolfJobs
 Need a side Hustle or want to get some quick rewards? Wolfjobs provides the perfect platform to meet your requirements.
 
