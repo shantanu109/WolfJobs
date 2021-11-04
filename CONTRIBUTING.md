@@ -34,3 +34,12 @@ Enhancement suggestions are tracked as GitHub issues. After you've determined wh
 Giving more detailed information will help us understand the suggestion better.
 #### Provide details like 1) what is the enhancement? 2)Suggestions to implement the enhancement
 
+
+<h3 id="section3"> Pull Requests</h3>
+The process described here has several goals:
+- Maintain WolfJobs quality
+- Fix problems that are important to users
+- Engage the community in working toward the best possible WolfJobs
+- Enable a sustainable system for Atom's maintainers to review contributions
+
+
