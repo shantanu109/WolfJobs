@@ -10,7 +10,8 @@
 [![Repo-size](https://img.shields.io/github/repo-size/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
 [![file_count](https://img.shields.io/github/directory-file-count/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
 [![language_count](https://img.shields.io/github/languages/count/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
-
+[![Downloads](https://img.shields.io/github/downloads/shantanu109/WolfJobs/total)](https://GitHub.com/shantanu109/Wolfjobs/)
+[![Top Language](https://img.shields.io/github/languages/count/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
 
 ![WolfJobs Logo](https://user-images.githubusercontent.com/89487138/140389503-29cb0c25-83d0-4196-9bfb-7d1ecc863412.png)
 ![Banner](https://www.schoolcraft.edu/wp-content/uploads/2021/07/student-employee-open-house-graphic.png)
