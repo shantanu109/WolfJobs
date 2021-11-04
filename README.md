@@ -1,12 +1,19 @@
 [![DOI](https://zenodo.org/badge/408674383.svg)](https://zenodo.org/badge/latestdoi/408674383) 
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-[![Build Status](https://app.travis-ci.com/atharva1996/WolfJobs.svg?branch=master)](https://app.travis-ci.com/atharva1996/WolfJobs)
+[![Build Status](https://app.travis-ci.com/shantanu109/WolfJobs.svg?branch=master)](https://app.travis-ci.com/shantanu109/WolfJobs)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
-![Issues](https://img.shields.io/github/issues/atharva1996/wolfjobs)
-![last commit](https://img.shields.io/github/last-commit/atharva1996/wolfjobs)
-![total lines](https://img.shields.io/tokei/lines/github/atharva1996/wolfjobs)
+![Issues](https://img.shields.io/github/issues/shantanu109/Wolfjobs)
+![Issues Closed](https://img.shields.io/github/issues-closed/shantanu109/calorieapp_frontend)
+![last commit](https://img.shields.io/github/last-commit/shantanu109/Wolfjobs)
+![total lines](https://img.shields.io/tokei/lines/github/shantanu109/Wolfjobs)
+[![Repo-size](https://img.shields.io/github/repo-size/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
+[![file_count](https://img.shields.io/github/directory-file-count/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
+[![language_count](https://img.shields.io/github/languages/count/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
 
+
+![WolfJobs Logo](https://user-images.githubusercontent.com/89487138/140389503-29cb0c25-83d0-4196-9bfb-7d1ecc863412.png)
+![Banner](https://www.schoolcraft.edu/wp-content/uploads/2021/07/student-employee-open-house-graphic.png)
 # WolfJobs
 Need a side Hustle or want to get some quick rewards? Wolfjobs provides the perfect platform to meet your requirements.
 
