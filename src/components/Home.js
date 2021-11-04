@@ -27,7 +27,7 @@ class Home extends Component {
 
         ))}
         
-        {/* <Widgets style={{marginTop:'1000px'}}/> */}
+        
           
       </div>
       
