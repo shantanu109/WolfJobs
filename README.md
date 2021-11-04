@@ -51,7 +51,11 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 
 # Application Preview:
 ### Signup Page
-![signup](https://user-images.githubusercontent.com/25662536/140403067-b736061c-f840-4212-9b2e-87bdbcd9ffbd.gif)
+
+
+https://user-images.githubusercontent.com/25662536/140405533-daabb7cd-b3bf-44bc-925d-8797d09be516.mp4
+
+
 
 ### Login
 <img width="1200"  src="https://user-images.githubusercontent.com/89509351/135366540-52e385fe-6aac-4bf5-a146-6b3302fc1124.png">
