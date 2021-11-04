@@ -89,7 +89,7 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 #### `git clone https://github.com/shantanu109/WolfJobs.git`
 
 - Then enter
-#### `npm install`
+#### `rmdir /s /q node_modules && npm install`
  to install all the required dependencies in both the terminal. The dependencies have been mentioned in the 'package.json' file.
 
  - Then enter below command for both the terminals to start the application:
