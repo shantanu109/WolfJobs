@@ -4,6 +4,7 @@
 [![Build Status](https://app.travis-ci.com/shantanu109/WolfJobs.svg?branch=master)](https://app.travis-ci.com/shantanu109/WolfJobs)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 ![Issues](https://img.shields.io/github/issues/shantanu109/Wolfjobs)
+![Issues Closed](https://img.shields.io/github/issues-closed/shantanu109/calorieapp_frontend)
 ![last commit](https://img.shields.io/github/last-commit/shantanu109/Wolfjobs)
 ![total lines](https://img.shields.io/tokei/lines/github/shantanu109/Wolfjobs)
 [![Repo-size](https://img.shields.io/github/repo-size/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
