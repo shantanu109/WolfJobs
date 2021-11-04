@@ -50,8 +50,8 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
  
 
 # Application Preview:
-### Registration Page
-<img width="1200"  src="https://user-images.githubusercontent.com/89509351/135366312-c886440a-11a2-43c7-bf89-0235c28c44a3.png">
+### Signup Page
+![signup](https://user-images.githubusercontent.com/25662536/140403067-b736061c-f840-4212-9b2e-87bdbcd9ffbd.gif)
 
 ### Login
 <img width="1200"  src="https://user-images.githubusercontent.com/89509351/135366540-52e385fe-6aac-4bf5-a146-6b3302fc1124.png">
