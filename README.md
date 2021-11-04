@@ -49,6 +49,7 @@ Let's assume the same Teaching Assistant has some free time and want to know if 
  
 
 # Application Preview:
+## Applicant Side
 ### Signup Page
 
 
@@ -63,15 +64,12 @@ https://user-images.githubusercontent.com/53376580/140409146-e528dd14-c58a-4a1e-
 ### Job Status
 https://user-images.githubusercontent.com/53376580/140409311-2d8c6316-2da4-4299-870f-93185b05a165.mov
 
-## Search Engine
+### Search Engine
 https://user-images.githubusercontent.com/53376580/140409391-5e36d4e3-dc7f-410d-9b22-74b16380877e.mov
 
 
-
-https://user-images.githubusercontent.com/53376580/140409424-5f09749d-1435-471e-9a4b-9ee2c73b7736.mov
-
-
-
+## Manager Side
+### Accept or Reject applicant
 
 https://user-images.githubusercontent.com/53376580/140409450-2b444b36-b3c4-4217-bdcf-fb08dd85d4b0.mov
 
