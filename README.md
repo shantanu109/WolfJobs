@@ -6,6 +6,10 @@
 ![Issues](https://img.shields.io/github/issues/shantanu109/Wolfjobs)
 ![last commit](https://img.shields.io/github/last-commit/shantanu109/Wolfjobs)
 ![total lines](https://img.shields.io/tokei/lines/github/shantanu109/Wolfjobs)
+[![Repo-size](https://img.shields.io/github/repo-size/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
+[![file_count](https://img.shields.io/github/directory-file-count/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
+[![language_count](https://img.shields.io/github/languages/count/shantanu109/Wolfjobs)](https://GitHub.com/shantanu109/Wolfjobs/)
+
 
 ![WolfJobs Logo](https://user-images.githubusercontent.com/89487138/140389503-29cb0c25-83d0-4196-9bfb-7d1ecc863412.png)
 ![Banner](https://www.schoolcraft.edu/wp-content/uploads/2021/07/student-employee-open-house-graphic.png)
