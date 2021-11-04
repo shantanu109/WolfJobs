@@ -15,7 +15,7 @@ success:True/False
 #### Parameters: Email, password, confirm Password, name
 #### Method: "Post"
 #### Description:
-Create a user. The server side checks the conditions.
+Create a user(Manager or Applicant). The server side checks the conditions.
 a.Password & Confirm Password matches.
 b.If a user already exists with the same email. If user already exists, it returns the user.
 c.Creates a new user if there is not a user with the same email in DB.
@@ -24,68 +24,96 @@ The function updates the state of the user on client side on success.
 
 ### III. Function Edit User Profile
 #### Parmaters: 
-height, wieght, goal. target, userID
+name, password, role, address, phonenumber, hours, gender, dob, skills
 #### Method: "Post"
 #### Description: 
-Finds the user inside the database & updates its height, weight, goal, Target, userID
+Finds the user inside the database & updates its name, password, role, address, phonenumber, hours, gender, dob, skills
 #### Output: 
-#updated user data
-data{token, user}
+#"User is updated Successfully"
+data{user}
+success:True
 
-### IV. Function addTotal
+### IV. Function createJob
 #### Parameters: 
-total
+jobname, id, skills, location, description, pay, schedule
+#### Method: "Post"
 #### Description: 
-Updates the total calories state of the user on the client side
+Creates new Job
 #### Output: 
-Updated total calories state
+data: {
+        job: job,
+      },
+      message: "Job Created!!",
+      success: true,
 
-### V. Function getHistory
+### V. Function closeJob
 #### Parameters: 
-date, UserID
+JobId
 #### Method:
-'GET'
+'POST'
 #### Description:
-Function makes an API call to get user's calories data for a specific date.
-#### Output: 
-Receives JSON data
-#### Message: 
-history:history
-success: true
+Function makes an API call to change the status of the job to open to close
+#### Output:  
+message: "Job status is updated Successfully",
 
-### VI. Function edit History
+      data: {
+        job,
+      },
+      success: true,
+
+### VI. Function Create Application
 #### Parameters- 
-date, total, burnout, userID
+ID, Name, Address, PhoneNumber, Hours, DOB, gender, Skills, JobName, JobId, MangerId
+#### Method: "Post"
 #### Description: 
-Function makes an API call with users calories information for the date & adds it the database.
+Function makes a new application whenever an applicant applies.
 #### Output:
 #### Message: 
-{"History created successfully"
-date: {History}
-Success: true
-}
+data: {
+        application: application,
+      },
+      message: "Application Created!!",
+      success: true,
+    }
 
-### VII. Function search Users
+### VII. Function Accept Application
 #### Parameters- 
-searchText: Food
+ApplicationId
+#### Method: "Post"
 #### Description:
-Makes an API call to get the list of foods that contains the search text in their name
+Changes the status of the application from pending to Accepted.
 #### Output:
-JSON data:{Message: "The list of searched food"
-data:{food}
-success: true
-}
+message: "Application is updated Successfully",
+      data: {
+        application,
+      },
+      success: true,
+      
+### VIII. Function Reject Application
+#### Parameters- 
+ApplicationId
+#### Method: "Post"
+#### Description:
+Changes the status of the application from pending to Rejected.
+#### Output:
+message: "Application is updated Successfully",
+      data: {
+        application,
+      },
+      success: true
+      
+### IX. Function search Job
+#### Parmaters: 
+search String
+#### Method: "Get"
+#### Description: 
+Finds the jobs based on the search String
+#### Output: 
+message: "The list of Searched Users",
+      data: {
+        //user.JSON() part gets encrypted
 
-## Components:
-### 1. Class App - 
-App component contains all the components that resides on the client side.
-### 2. Class Goal - 
-Goal components is used to enter user's day to day calories intake and burnout
-### 3. Class History - 
-History component displays the user's calories/workout information for a specific selected date.
-### 4. Class Login & Signup - 
-Both components have the functinality to register & visit the website.
-### 5. Class Navbar - 
-This component contains the logo, tabs to switch between components, and logged in user's Name and login/logout buttons.
-### 6. Class settings - 
-Settings component is used to update the user's height, weight, goal and target weight.
+        //token: jwt.sign(user.toJSON(), env.jwt_secret, { expiresIn: "100000" }),
+        users: users,
+      },
+      success: true
