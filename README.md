@@ -1,5 +1,5 @@
-[![DOI](https://zenodo.org/badge/408674383.svg)](https://zenodo.org/badge/latestdoi/408674383)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![DOI](https://zenodo.org/badge/408674383.svg)](https://zenodo.org/badge/latestdoi/408674383) 
+
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![Build Status](https://app.travis-ci.com/atharva1996/WolfJobs.svg?branch=master)](https://app.travis-ci.com/atharva1996/WolfJobs)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
@@ -31,10 +31,12 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 
 # Tech Stack used for the development of this project
  
- <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python" width="20" height="20"/> Python </br>
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongo" width="20" height="20"/> MongoDB </br>
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" alt="html" width="20" height="20"> CSS3 </br>
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" alt="css" width="20" height="20">  HTML 5 </br>
+ - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+ - ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+ - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+ - ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+ - ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)  
+ - ![RestAPI](https://img.shields.io/badge/RestAPI-005571?style=for-the-badge&logo=restapi)
  
 
 # Application Preview:
@@ -67,54 +69,49 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 
 <img width="1200"  src="https://user-images.githubusercontent.com/89509351/135367153-63917738-9c09-4703-81dd-bcf49d86d973.png">
 
-
-
-
-
-
-
-
-
 # Installation Guide
  
- Step 1: 
-  Git Clone the Repository 
-  
-    git clone https://github.com/atharva1996/WolfJobs.git 
-    
-  (OR) Download the .zip file on your local machine
-  
-    https://github.com/atharva1996/WolfJobs.git
-  
- Step 2:
-   Install the required packages by running the following command in the terminal 
-   
-    pip install -r requirements.txt
-    
- Step 3:
-    Run the following command in the terminal
-    
-    python application.py
-    
- Step 4:
-    Open the URL in your browser:  
-      http://127.0.0.1:5000/
+ - Install [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows)
+ - Download and install [NodeJs](https://nodejs.org/en/download/)
+ - Download the Allow CORS: Access-Control-Allow-Origin extension for Google Chrome
+ 
+ - In the command prompt clone the frontend project using following commands:
+#### `git clone https://github.com/shantanu109/WolfJobs.git`
+
+- Then enter
+#### `npm install`
+ to install all the required dependencies in both the terminal. The dependencies have been mentioned in the 'package.json' file.
+
+ - Then enter below command for both the terminals to start the application:
+#### `npm start`
+
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 
+# Source Code
+ - Link to frontend repository: https://github.com/shantanu109/WolfJobs
+ - Link to backend repository: https://github.com/shantanu109/WolfJobsBackend
+
+# Additional commands for React App
+
+## Available Scripts
+
+In the project directory, you can run:
+
+#### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+#### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
 # Future Scope
-  Searching for a new job and finding the right person for a job is no doubt a crucial task within itself. Hence adding further functionalities to our platform becomes very important task for better user experience.
-
-  The future scope of Wolf Job includes various functionalities as stated below defined in 2 phases
-
-  ### Phase 2:
-  1.	**Job Status** – In later stages Wolf Job will also show you the status of Jobs. If the job has been posted then it is in Open Stage, if the applicants have already applied for the job, then it is in In-Review stage, and once the job requirements are over then it is in Closed Stage.
-
-  2.	**User Profile** – Wolf Job will also provide the functionality of updating whole user profile according to various need so that the Hiring Manager for a job can get more information about the applicant and can decide which applicant to hire seeing their profile.
-
-  3.	**Resume Upload** – In Phase 2 of Wolf Job, user can even upload Resume / CV and cover letter for any particular job. Uploading resume will be very helpful for the hiring manager to get a better idea about an applicant’s background and profile.
-
-  4.	**Search Engine** – Wolf Job will also provide the user with the functionality of Job search engine. Basically, any end user can search for a particular job by typing keywords in the search box. Corresponding to the keywords entered, our platform will show various job uploaded on wolf Job platform.
-
-  ### Phase 3:
+  
   1.	**Job Analysis** – In phase 3, wolf Job will provide the functionality of analysing various aspects of a job. Job Analysis based on various parameters using graphical representation will help in making prediction on which jobs are more preferred and for which jobs applicants have more inclination. Hiring managers can then decide what rewards and salary to be given to the applicants of that job. Even applicants will get to know, which job is being preferred among other applicants.
 
   2.	**OTP and Email Verification** – In the 3rd phase, wolf Job will provide the functionality to verify an end user by 2-way authentication, that is, Authentication via OTP as well as email verification.
@@ -129,10 +126,10 @@ https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-
 # Contributors
   <table>
   <tr>
-    <td align="center"><a href="https://github.com/atharva1996"><img src="https://avatars.githubusercontent.com/u/16671348?v=4" width="100px;" alt=""/><br /><sub><b>Atharva Patil</b></sub></a></td>
-    <td align="center"><a href="https://github.com/AtharvaJ10"><img src="https://avatars.githubusercontent.com/u/49825649?v=4" width="100px;" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Banpreet13"><img src="https://avatars.githubusercontent.com/u/78414515?v=4" width="100px;" alt=""/><br /><sub><b>Banpreet Singh</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/vaish68"><img src="https://avatars.githubusercontent.com/u/89509351?v=4" width="100px;" alt=""/><br /><sub><b>Vaishnavi Patil</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/shivam-pednekar"><img src="https://avatars.githubusercontent.com/u/62328699?v=4" width="100px;" alt=""/><br /><sub><b>Shivam Pednekar</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/shantanu109"><img src="https://avatars.githubusercontent.com/u/42075794?v=4" width="100px;" alt=""/><br /><sub><b>Shantanu Pandey</b></sub></a></td>
+    <td align="center"><a href="https://github.com/gargvarun250"><img src="https://avatars.githubusercontent.com/u/89566418?v=4" width="100px;" alt=""/><br /><sub><b>Varun Garg</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Sahil-Nande"><img src="https://avatars.githubusercontent.com/u/89487138?v=4" width="100px;" alt=""/><br /><sub><b>Sahil Nande</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/urmi6899"><img src="https://avatars.githubusercontent.com/u/53376580?v=4" width="100px;" alt=""/><br /><sub><b>Urmi Pathak</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/leanneserrao"><img src="https://avatars.githubusercontent.com/u/25662536?v=4" width="100px;" alt=""/><br /><sub><b>Leanne Serrao</b></sub></a><br /></td>
   </tr>
 </table>
