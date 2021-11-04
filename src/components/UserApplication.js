@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import { fetchJobs } from '../actions/job';
 
 
-class History extends Component {
+class UserApplication extends Component {
     
     render() {
         const {application} = this.props;
@@ -19,7 +19,7 @@ class History extends Component {
         return (
             <div>
         {application.map((app) => (
-            app.manageremail == user._id && app.status == '0' &&
+          app.applicantid == user._id && 
           <Application app={app} key={app._id} />
         ))}
         
@@ -44,4 +44,4 @@ function mapStateToProps({auth,job,application}) {
     };
   }
   
-export default connect(mapStateToProps)(History);
+export default connect(mapStateToProps)(UserApplication);

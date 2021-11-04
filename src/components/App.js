@@ -6,10 +6,12 @@ import jwtDecode from 'jwt-decode';
 
 import {BrowserRouter as Router,Link,Route, Switch,Redirect} from 'react-router-dom';
 
-import {Home, Page404,Navbar, Login,Signup,Settings,Goal,History} from './';
+import {Home, Page404,Navbar, Login,Signup,Settings,Goal,History, UserApplication } from './';
 import PropTypes from 'prop-types';
 import {authenticateUser} from '../actions/auth';
 import { getAuthTokenFromLocalStorage } from '../helpers/utils';
+import { fetchJobs } from '../actions/job';
+import { fetchApplications } from '../actions/job';
 
 
 const PrivateRoute = (privateRouteProps) => {
@@ -45,6 +47,9 @@ class App extends React.Component {
 
     //const {user} = this.props.auth
     //this.props.dispatch(fetchFriends(user._id));
+    this.props.dispatch(fetchJobs());
+    this.props.dispatch(fetchApplications());
+    
 
     const token = getAuthTokenFromLocalStorage();
 
@@ -68,7 +73,8 @@ class App extends React.Component {
   render() {
     const {auth} = this.props;
     const { isLoggedIn } = this.props.auth;
-    const {user} = this.props.auth
+    const {user} = this.props.auth;
+    const {job} = this.props;
     return (
       <Router>
       <div className="wrapper">
@@ -78,7 +84,11 @@ class App extends React.Component {
 
       <Switch>
       <Route exact path ="/" render={(props) => {
-          return <Home {...props}/>
+          return <Home
+          {...props}
+          job={job}
+          
+        />
         }}/>
         <Route path ="/login" component={Login}/>
         <Route path ="/signup" component={Signup}/> 
@@ -96,7 +106,18 @@ class App extends React.Component {
               path="/history"
               component={History}
               isLoggedIn={auth.isLoggedIn}
+            
+              
         />
+        <PrivateRoute
+              path="/applicationinfo"
+              component={UserApplication}
+              isLoggedIn={auth.isLoggedIn}
+            
+              
+        />
+        
+        
         
         <Route component={Page404}/>
 
@@ -115,7 +136,9 @@ function mapStateToProps (state){
   return {
    
     auth: state.auth,
-    profile:state.profile
+    profile:state.profile,
+    job: state.job,
+    
 
   }
 

@@ -7,9 +7,11 @@ import Settings from './Settings';
 import Itembox from './Itembox';
 import Goal from './Goal';
 import History from './History';
+import UserApplication from './UserApplication';
+import Job1 from './Job1';
 
 import Card1 from './Card1';
 
 
 
-export {Home, Page404,Navbar, Login,Signup,Settings,Itembox,Goal,History,Card1}
+export {Home, Page404,Navbar, Login,Signup,Settings,Itembox,Goal,History,Card1,UserApplication,Job1}
