@@ -58,14 +58,15 @@ https://user-images.githubusercontent.com/53376580/140411230-bc93751b-67ba-4ac7-
 ### Edit Profile
 https://user-images.githubusercontent.com/53376580/140409480-1143c83a-f650-41b9-9a5a-5a29fb8a69a3.mov
 
+### Search Engine
+https://user-images.githubusercontent.com/53376580/140409391-5e36d4e3-dc7f-410d-9b22-74b16380877e.mov
+
+
 ### Apply for Job
 https://user-images.githubusercontent.com/53376580/140409146-e528dd14-c58a-4a1e-8fa0-0568efb1f6f6.mov
 
 ### Job Status
 https://user-images.githubusercontent.com/53376580/140409311-2d8c6316-2da4-4299-870f-93185b05a165.mov
-
-### Search Engine
-https://user-images.githubusercontent.com/53376580/140409391-5e36d4e3-dc7f-410d-9b22-74b16380877e.mov
 
 
 ## Manager Side
@@ -73,11 +74,7 @@ https://user-images.githubusercontent.com/53376580/140409391-5e36d4e3-dc7f-410d-
 
 https://user-images.githubusercontent.com/53376580/140409450-2b444b36-b3c4-4217-bdcf-fb08dd85d4b0.mov
 
-
-
-
-
-
+### View all applicantions and close job when hired
 https://user-images.githubusercontent.com/53376580/140409523-7a437ae6-608a-4732-857c-f4625f0be9fe.mov
 
 
