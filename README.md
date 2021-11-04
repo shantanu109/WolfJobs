@@ -79,7 +79,7 @@ https://user-images.githubusercontent.com/53376580/140409523-7a437ae6-608a-4732-
 
 
 
-
+### View hired applicant details
 https://user-images.githubusercontent.com/53376580/140409552-1ae7a421-c73e-449a-9d28-68e1b90cd6cd.mov
 
 
