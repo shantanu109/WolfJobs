@@ -5,16 +5,16 @@ import Navbar from './Navbar';
 import Login from './Login';
 import Signup from './Signup';
 import Settings from './Settings';
-import Itembox from './Itembox';
+
 import Goal from './Goal';
 import History from './History';
 import UserApplication from './UserApplication';
 
 
-import Card1 from './Card1';
 
 
 
-export {Home, Page404,Navbar, Login,Signup,Settings,Itembox,Goal,History,Card1,UserApplication}
+
+export {Home, Page404,Navbar, Login,Signup,Settings,Goal,History,UserApplication}
 
 

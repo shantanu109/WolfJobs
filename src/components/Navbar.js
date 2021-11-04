@@ -115,7 +115,7 @@ class Navbar extends React.Component {
             {user.role == "Applicant" && (
               <div className="header__option ">
                 <Link to="/applicationinfo">
-                  <SubscriptionsOutlinedIcon fontSize="large" />
+                  <ListAltIcon fontSize="large" />
                 </Link>
               </div>
             )}

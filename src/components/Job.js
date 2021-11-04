@@ -6,7 +6,7 @@ class Job extends Component {
     
     handleApply = () => {
 
-        // const {name,skills,status,location,description,pay,schedule} = this.props.job;
+        
     
         const {user} = this.props.auth;
         const {job} = this.props;
@@ -17,7 +17,7 @@ class Job extends Component {
 
       handleApply1 = () => {
 
-        // const {name,skills,status,location,description,pay,schedule} = this.props.job;
+        
     
         
             const {user} = this.props.auth;

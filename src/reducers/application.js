@@ -1,4 +1,3 @@
-
 import { UPDATE_APPLICATION,ADD_APPLICATION,ACCEPT_APPLICATION,REJECT_APPLICATION} from '../actions/actionTypes';
 
 export default function application(state = [], action) {

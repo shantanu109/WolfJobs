@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import ImgSlider from './ImgSlider';
-import Widgets from './Widgets';
-import Card from './Card';
-import {Itembox} from './';
+
 import Application from './Application';
 import { connect } from 'react-redux';
 import { fetchJobs } from '../actions/job';
@@ -15,6 +12,8 @@ class History extends Component {
         
         const {user} = this.props.auth;
         console.log('lalallaala')
+        console.log('APPPP MANANANAN',application)
+        console.log('usssjsjsj',user._id)
         
         return (
             <div>

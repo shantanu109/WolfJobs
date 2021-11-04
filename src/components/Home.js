@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import ImgSlider from './ImgSlider';
-import Widgets from './Widgets';
-import Card from './Card';
-import {Itembox} from './';
+
 import Job from './Job';
 
 import { connect } from 'react-redux';
-import { fetchJobs } from '../actions/job';
+
 
 
 class Home extends Component {

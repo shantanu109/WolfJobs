@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import SearchIcon from '@material-ui/icons/Search';
-import { Link } from 'react-router-dom';
+
 import { searchUsers } from '../actions/search';
 // import {clearAuthState} from '../actions/auth';
 import {clearsearchstate} from '../actions/search';
-import { editHistory } from '../actions/history';
-import {addTotal} from '../actions/food';
-import DatePicker from 'react-datepicker';
+
 import 'react-datepicker/dist/react-datepicker.css';
-import {makeStyles} from '@material-ui/core/styles';
-import Card1 from './Card1';
+
 import Widgets from './Widgets.js';
 import {createJob} from '../actions/job';
 

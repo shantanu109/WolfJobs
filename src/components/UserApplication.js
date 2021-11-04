@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import ImgSlider from './ImgSlider';
-import Widgets from './Widgets';
-import Card from './Card';
-import {Itembox} from './';
+
 import Application from './Application';
 import { connect } from 'react-redux';
-import { fetchJobs } from '../actions/job';
+
 
 
 class UserApplication extends Component {
@@ -23,7 +20,7 @@ class UserApplication extends Component {
           <Application app={app} key={app._id} />
         ))}
         
-        {/* <Widgets style={{marginTop:'1000px'}}/> */}
+       
           
       </div>
       
