@@ -52,27 +52,43 @@ Let's assume the same Teaching Assistant has some free time and want to know if 
 ### Signup Page
 
 
-https://user-images.githubusercontent.com/25662536/140405533-daabb7cd-b3bf-44bc-925d-8797d09be516.mp4
+https://user-images.githubusercontent.com/53376580/140411230-bc93751b-67ba-4ac7-9082-d026c323839b.mov
+
+### Edit Profile
+https://user-images.githubusercontent.com/53376580/140409480-1143c83a-f650-41b9-9a5a-5a29fb8a69a3.mov
+
+
+https://user-images.githubusercontent.com/53376580/140409311-2d8c6316-2da4-4299-870f-93185b05a165.mov
 
 
 
-### Login
-
-### Manager's posts for job openings
-
-### Manager dashboard
+https://user-images.githubusercontent.com/53376580/140409146-e528dd14-c58a-4a1e-8fa0-0568efb1f6f6.mov
 
 
-### Student dashboard
 
-     
-### Student Application form
+https://user-images.githubusercontent.com/53376580/140409391-5e36d4e3-dc7f-410d-9b22-74b16380877e.mov
 
 
-### Check for jobs applied
 
-     
-### Manager's dashboard to select the right candidate
+https://user-images.githubusercontent.com/53376580/140409424-5f09749d-1435-471e-9a4b-9ee2c73b7736.mov
+
+
+
+
+https://user-images.githubusercontent.com/53376580/140409450-2b444b36-b3c4-4217-bdcf-fb08dd85d4b0.mov
+
+
+
+
+
+
+https://user-images.githubusercontent.com/53376580/140409523-7a437ae6-608a-4732-857c-f4625f0be9fe.mov
+
+
+
+
+https://user-images.githubusercontent.com/53376580/140409552-1ae7a421-c73e-449a-9d28-68e1b90cd6cd.mov
+
 
 
 # Installation Guide
