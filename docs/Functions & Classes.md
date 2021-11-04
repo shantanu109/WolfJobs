@@ -111,9 +111,6 @@ Finds the jobs based on the search String
 #### Output: 
 message: "The list of Searched Users",
       data: {
-        //user.JSON() part gets encrypted
-
-        //token: jwt.sign(user.toJSON(), env.jwt_secret, { expiresIn: "100000" }),
         users: users,
       },
       success: true
