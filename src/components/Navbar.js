@@ -8,6 +8,8 @@ import { searchUsers } from "../actions/search";
 import SearchIcon from "@material-ui/icons/Search";
 import HomeIcon from "@material-ui/icons/Home";
 import FlagIcon from "@material-ui/icons/Flag";
+import WorkIcon from "@material-ui/icons/Work";
+import ListAltIcon from "@material-ui/icons/ListAlt";
 import SubscriptionsOutlinedIcon from "@material-ui/icons/SubscriptionsOutlined";
 import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";
 import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
@@ -39,7 +41,7 @@ class Navbar extends React.Component {
               // http://ninjasfiles.s3.amazonaws.com/0000000000003454.png
               //   src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
               alt="logo"
-              src="/images/burnlogo2.jpeg"
+              src="/images/WolfJobs Logo (1).png"
               style={{ height: "50px" }}
             />
           </Link>
@@ -99,14 +101,14 @@ class Navbar extends React.Component {
             {user.role == "Manager" && (
               <div className="header__option ">
                 <Link to="/goal">
-                  <FlagIcon fontSize="large" />
+                  <WorkIcon fontSize="large" />
                 </Link>
               </div>
             )}
             {user.role == "Manager" && (
               <div className="header__option ">
                 <Link to="/history">
-                  <SubscriptionsOutlinedIcon fontSize="large" />
+                  <ListAltIcon fontSize="large" />
                 </Link>
               </div>
             )}
@@ -132,7 +134,7 @@ class Navbar extends React.Component {
               <div className="user">
                 <Link to="/settings">
                   <img
-                    src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+                    src="https://cdn-icons.flaticon.com/png/512/668/premium/668709.png?token=exp=1636045281~hmac=01dc4c9a3c91ca3c5bae9c160e2fb7c6"
                     alt="user-dp"
                     id="user-dp"
                     style={{ marginLeft: "0px" }}

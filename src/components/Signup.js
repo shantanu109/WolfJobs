@@ -93,8 +93,8 @@ class Signup extends Component {
             onChange={(e) => this.handleInputChange('password', e.target.value)}
           />
         </div>
-        <select value={this.state.role} onChange={(e) => this.handleInputChange('role', e.target.value)}>
-          <option value="Manager">Manager</option>
+        <select value={this.state.role} onChange={(e) => this.handleInputChange('role', e.target.value)}  style={{border:'1px solid rgba(0,0,0,0.12',boxSizing:'border-box',borderRadius:'6px',width:'100%',height:'40px',marginTop:'20px',padding:'5px',fontSize:'15px'}}>
+          <option value="Manager" >Manager</option>
           <option value="Applicant">Applicant</option>
         </select>
         <div className="field">

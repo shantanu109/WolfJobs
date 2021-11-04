@@ -223,7 +223,7 @@ class Settings extends Component {
       <div className="settings">
         <div className="img-container">
           <img
-            src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+            src="https://cdn-icons.flaticon.com/png/512/668/premium/668709.png?token=exp=1636045281~hmac=01dc4c9a3c91ca3c5bae9c160e2fb7c6"
             alt="user-dp"
           />
         </div>
@@ -363,7 +363,7 @@ class Settings extends Component {
         {editMode && <div className="go-back" onClick={() => this.handleChange('editMode',false)}>
             Go Back</div>}
 
-        <div style={{color:'red', marginTop:'20px',fontWeight:'bolder'}}>Donot change your information if you have logged in from Google</div>
+        
       </div>
     );
   }

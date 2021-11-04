@@ -401,12 +401,14 @@ nav .nav-links ul li:hover {
 .login-signup-header {
   font-weight: 600;
   font-size: 30px;
-  color: #2e81f4;
+  color: #f64b55
+  ;
 }
 .goal-signup-header {
   font-weight: 600;
   font-size: 30px;
-  color: #2e81f4;
+  color: #f64b55
+  ;
 }
 
 .login-form {
@@ -469,7 +471,8 @@ nav .nav-links ul li:hover {
 .field button {
   width: 100%;
   margin-top: 20px;
-  background: #2e81f4;
+  background: #f64b55
+  ;
   border-radius: 2px;
   color: #fff;
   font-size: 20px;
@@ -542,12 +545,15 @@ nav .nav-links ul li:hover {
   outline: none;
 }
 .settings .edit-btn {
-  border: 1px solid #2e81f4;
+  border: 1px solid #f64b55
+  ;
   box-sizing: border-box;
-  color: #2e81f4;
+  color: #f64b55
+  ;
 }
 .settings .save-btn {
-  background: #2e81f4;
+  background: #f64b55
+  ;
   color: #fff;
   border: none;
   padding: 10px 20px;
