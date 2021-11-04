@@ -35,7 +35,7 @@ Enhancement suggestions are tracked as GitHub issues.
 After you've determined which repository your enhancement suggestion is related to, create an issue on that repository and provide the information like title, step-by-step description, specific examples.\
 Giving more detailed information will help us understand the suggestion better. 
 #### Provide details like 
-1) what is the enhancement? 
+1) What is the enhancement? 
 2) Suggestions to implement the enhancement
 
 
