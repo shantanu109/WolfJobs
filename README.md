@@ -36,7 +36,6 @@ Let's assume the same Teaching Assistant has some free time and want to know if 
 
 # Watch this video to know more:
 
-https://user-images.githubusercontent.com/89509351/135556679-daf6a3cd-39af-4cb6-8b81-36522edb3889.mp4
 
 
 # Tech Stack used for the development of this project
@@ -58,30 +57,23 @@ https://user-images.githubusercontent.com/25662536/140405533-daabb7cd-b3bf-44bc-
 
 
 ### Login
-<img width="1200"  src="https://user-images.githubusercontent.com/89509351/135366540-52e385fe-6aac-4bf5-a146-6b3302fc1124.png">
 
 ### Manager's posts for job openings
-<img width="1200"  src="https://user-images.githubusercontent.com/89509351/135366665-93663827-a0d7-43c3-baea-c2923197b91e.png">
 
 ### Manager dashboard
 
-<img width="1200"  src="https://user-images.githubusercontent.com/89509351/135366752-fa9230c3-5377-4b1f-b413-d84e21784007.png">
 
 ### Student dashboard
 
-<img width="1200"  src="https://user-images.githubusercontent.com/62328699/135398595-db44e897-0835-4532-ac29-aabd414b917a.png">
      
 ### Student Application form
 
-<img width="1200"  src="https://user-images.githubusercontent.com/89509351/135366907-8682f8d9-d8e2-4138-aa53-9f11660f333a.png">
 
 ### Check for jobs applied
 
-<img width="1200"  src="https://user-images.githubusercontent.com/89509351/135367040-26503123-8a21-465e-ad5d-818f8682ac68.png">
      
 ### Manager's dashboard to select the right candidate
 
-<img width="1200"  src="https://user-images.githubusercontent.com/89509351/135367153-63917738-9c09-4703-81dd-bcf49d86d973.png">
 
 # Installation Guide
  
