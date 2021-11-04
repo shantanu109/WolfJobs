@@ -2,7 +2,7 @@
 
 <a href="https://zenodo.org/record/5534872#.YVYLNZrMJPY">Zenodo DOI Link</a>
 
-Link to frontend repository: https://github.com/shantanu109/WolfJobs
+Link to frontend repository: https://github.com/shantanu109/WolfJobs \
 Link to backend repository: https://github.com/shantanu109/WolfJobsBackend
 
 ### Authors
