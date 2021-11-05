@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/408674383.svg)](https://zenodo.org/badge/latestdoi/408674383) 
+[![DOI](https://zenodo.org/badge/420900040.svg)](https://zenodo.org/badge/latestdoi/420900040)
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![Build Status](https://app.travis-ci.com/shantanu109/WolfJobs.svg?branch=master)](https://app.travis-ci.com/shantanu109/WolfJobs)
