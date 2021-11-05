@@ -35,4 +35,4 @@ Prepare a  markdown  with **three** columns:
 |.5|test cases are routinely executed |https://github.com/shantanu109/WolfJobs/blob/master/.travis.yml|.5|
 |1|Documentation describing how this version improves on the older version|https://github.com/shantanu109/WolfJobs |1|
 |3|This version is a little(1), some(2), much(3) improved on the last version.|Tutor's assessment.|3|
-|16| Total|
+|16| Total| |16|
