@@ -11,7 +11,7 @@ Prepare a  markdown  with **three** columns:
 
 
 |Score|Notes| Evidence|Selfscore|
-|-|-----|--------|-|
+|-|-----|-------|-|
 |.5| short release cycles|https://github.com/shantanu109/WolfJobs/releases|.5|
 |.5| workload is spread over the whole team (so one team member is often Xtimes more productive than the others...|https://github.com/shantanu109/WolfJobs/graphs/contributors|.5|
 |.5|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing |https://github.com/shantanu109/WolfJobs |.5|
