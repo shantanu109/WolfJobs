@@ -12,6 +12,8 @@ import {createJob} from '../actions/job';
 
 
 class Goal extends Component {
+    errorMsg = "";
+
     constructor(props) {
         super(props);
     
@@ -62,8 +64,26 @@ class Goal extends Component {
 
     const {user} = this.props.auth;
 
-    this.props.dispatch(createJob(name,skills,user._id,status,location,description,pay,schedule))
+    //console.log(this.state);
+    if(this.state.name === "" ){
+      this.errorMsg = "Missing name field"
+    } else if(this.state.skills === ""){
+      this.errorMsg = "Missing skills field"
+    } else if(this.state.location === ""){
+      this.errorMsg = "Missing location field"
+    } else if(this.state.description === ""){
+      this.errorMsg = "Missing description field"
+    } else if(this.state.pay === ""){
+      this.errorMsg = "Missing pay field"
+    } else if(this.state.schedule === ""){
+      this.errorMsg = "Missing schedule field"
+    } else {
+      this.props.dispatch(createJob(name,skills,user._id,status,location,description,pay,schedule))
+      this.errorMsg = "Job Added Successfully";
+    }
 
+    //Hard call to reset the page to display the error message correctly.
+    this.setState(this.state);
   }
 
     
@@ -75,8 +95,7 @@ class Goal extends Component {
         
         return (
             <div>
-                
-           <div className="goal-form" style={{width:'600px',height:'500px',marginLeft:'100px'}} >
+           <div className="goal-form" style={{width:'600px',height:'550px',marginLeft:'100px'}} >
            <span className="login-signup-header">Add Job</span>
             {error && <div className="alert error-dailog">{error}</div>}
             
@@ -86,6 +105,7 @@ class Goal extends Component {
           <input
             placeholder="Job Name"
             type="text"
+            id="name"
             required
             onChange={(e) => this.handleInputChange('name', e.target.value)}
           />
@@ -135,6 +155,9 @@ class Goal extends Component {
           />
         </div>
         
+        <div style={{textAlign:'left'}}>
+          <h4 id="response" style ={{marginLeft:'-250px'}}>{this.errorMsg}</h4>
+        </div>
         
         <div className="field">
         <button className="button save-btn" onClick={this.handleSave} >Save</button>
