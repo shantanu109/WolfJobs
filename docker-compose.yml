@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:5.0.4
+    restart: always
+    environment:
+      # MONGO_INITDB_ROOT_USERNAME: root
+      # MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: wolfjobs
+    volumes:
+      - mongo_data:/data/db
+
+  backend:
+    build: backend
+    depends_on:
+      - mongo
+    ports:
+      - 8000:8000
+
+  frontend:
+    build: frontend
+    depends_on:
+      - backend
+    ports:
+      - 3000:3000
+
+
+
+volumes:
+  mongo_data:
