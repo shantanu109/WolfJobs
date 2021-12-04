@@ -143,6 +143,7 @@ Your app is ready to be deployed!
 * Added a message when creating job listings as a manager to indicate success or failure of creation
 * Added extra dropdown in the login process to resolve the bug when creating a manager account
 * Added listings on the homepage to indicate common attributes across listed jobs (location and pay)
+* Combined both repositories (frontend and backend) into a single repository and setup launch with docker-compose
 
 
 # Contributors
