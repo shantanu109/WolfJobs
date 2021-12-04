@@ -139,7 +139,10 @@ Your app is ready to be deployed!
 
   4.	**Interview Appointment Scheduling** – In future phase 3, Wolf Job will also provide the facility for the hiring manager to organize an interview appointment for the job based on applicant’s availability and convenient time uploaded by the hiring manager. Either of the users can upload their availability time in the G-sheet and using google calendar appointments can be organised.
 
-
+# Changes from Project 2
+* Added a message when creating job listings as a manager to indicate success or failure of creation
+* Added extra dropdown in the login process to resolve the bug when creating a manager account
+* Added listings on the homepage to indicate common attributes across listed jobs (location and pay)
 
 
 # Contributors
