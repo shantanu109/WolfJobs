@@ -104,14 +104,7 @@ https://user-images.githubusercontent.com/53376580/140409552-1ae7a421-c73e-449a-
 In the project directory, you can run:
 
 # Future Scope
-  
-  1.	**Job Analysis** – In phase 3, wolf Job will provide the functionality of analysing various aspects of a job. Job Analysis based on various parameters using graphical representation will help in making prediction on which jobs are more preferred and for which jobs applicants have more inclination. Hiring managers can then decide what rewards and salary to be given to the applicants of that job. Even applicants will get to know, which job is being preferred among other applicants.
-
-  2.	**OTP and Email Verification** – In the 3rd phase, wolf Job will provide the functionality to verify an end user by 2-way authentication, that is, Authentication via OTP as well as email verification.
-
-  3.	**Chatbot Integration** – Our platform Wolf Job will also provide the functionality of Chatbot integrated with our website so that user can easily interact with the bot and get to know about various features of our web application and have a nice interactive experience.
-
-  4.	**Interview Appointment Scheduling** – In future phase 3, Wolf Job will also provide the facility for the hiring manager to organize an interview appointment for the job based on applicant’s availability and convenient time uploaded by the hiring manager. Either of the users can upload their availability time in the G-sheet and using google calendar appointments can be organised.
+ **Notice:** We recommend scrapping this project and no group working further on this project. This app was constructed with a separate front end and back end which were in different respositories when we forked this project, which is not necessary for this app. While we were able to add the suggested phase 3 functionality to this app, the code base this app is built upon is highly irregular and poorly constructed and the app would be better off being completely remade.
 
 # Changes from Project 2
 * Added a message when creating job listings as a manager to indicate success or failure of creation
@@ -120,6 +113,9 @@ In the project directory, you can run:
 * Combined both repositories (frontend and backend) into a single repository and setup launch with docker-compose
 
 # Changes from Project 3
+* When we inherited this project, the app was made up of two repositories, one holding the front end and one holding the back end. The previous build process was complex, required a complex setup process for both ends, and was not well explained. We restructured the two repositories into one single repository and made the build process simple by using Docker Compose.
+* Job Analysis
+* 
 
 # Contributors
   <table>
