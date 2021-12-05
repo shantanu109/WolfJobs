@@ -30,10 +30,14 @@ class Signup extends Component {
     e.preventDefault();
     const { email, password, confirmPassword, name, role } = this.state;
 
-    if (email && password && confirmPassword && name && role) {
-      this.props.dispatch(startSingup());
-      this.props.dispatch(signup(email, password, confirmPassword, name, role));
+    if (role.value !== "SelectRole"){
+      if (email && password && confirmPassword && name && role) {
+        this.props.dispatch(startSingup());
+        this.props.dispatch(signup(email, password, confirmPassword, name, role));
+      }
     }
+
+    
   };
 
 //   responseGoogle = (response)=>{
@@ -91,6 +95,7 @@ class Signup extends Component {
           />
         </div>
         <select value={this.state.role} onChange={(e) => this.handleInputChange('role', e.target.value)}  style={{border:'1px solid rgba(0,0,0,0.12',boxSizing:'border-box',borderRadius:'6px',width:'100%',height:'40px',marginTop:'20px',padding:'5px',fontSize:'15px'}}>
+          <option value="SelectRole">Select a Role</option>
           <option value="Manager" >Manager</option>
           <option value="Applicant">Applicant</option>
         </select>
