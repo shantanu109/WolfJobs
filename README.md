@@ -90,44 +90,18 @@ https://user-images.githubusercontent.com/53376580/140409552-1ae7a421-c73e-449a-
 
 # Installation Guide
  
- - Install [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows)
- - Download and install [NodeJs](https://nodejs.org/en/download/)
- - Download the Allow CORS: Access-Control-Allow-Origin extension for Google Chrome
+ - Download the Allow CORS: Access-Control-Allow-Origin extension for Google Chrome to allow requests to be sent between the frontend and backend
  
- - In the command prompt clone the frontend project using following commands:
-#### `git clone https://github.com/shantanu109/WolfJobs.git`
-
-- Then enter
-#### `rmdir /s /q node_modules && npm install`
- to install all the required dependencies in both the terminal. The dependencies have been mentioned in the 'package.json' file.
-
- - Then enter below command for both the terminals to start the application:
-#### `npm start`
+ - In phase 3 we simplified the install process: Thus you just need to run the following Docker command to run the repo:
+#### `docker-compose up --build`
 
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
  
-# Source Code
- - Link to frontend repository: https://github.com/shantanu109/WolfJobs
- - Link to backend repository: https://github.com/shantanu109/WolfJobsBackend
-
 # Additional commands for React App
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-#### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-#### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
 # Future Scope
   
@@ -145,14 +119,15 @@ Your app is ready to be deployed!
 * Added listings on the homepage to indicate common attributes across listed jobs (location and pay)
 * Combined both repositories (frontend and backend) into a single repository and setup launch with docker-compose
 
+# Changes from Project 3
 
 # Contributors
   <table>
   <tr>
-    <td align="center"><a href="https://github.com/shantanu109"><img src="https://avatars.githubusercontent.com/u/42075794?v=4" width="100px;" alt=""/><br /><sub><b>Shantanu Pandey</b></sub></a></td>
-    <td align="center"><a href="https://github.com/gargvarun250"><img src="https://avatars.githubusercontent.com/u/89566418?v=4" width="100px;" alt=""/><br /><sub><b>Varun Garg</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Sahil-Nande"><img src="https://avatars.githubusercontent.com/u/89487138?v=4" width="100px;" alt=""/><br /><sub><b>Sahil Nande</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/urmi6899"><img src="https://avatars.githubusercontent.com/u/53376580?v=4" width="100px;" alt=""/><br /><sub><b>Urmi Pathak</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/leanneserrao"><img src="https://avatars.githubusercontent.com/u/25662536?v=4" width="100px;" alt=""/><br /><sub><b>Leanne Serrao</b></sub></a><br /></td>
+    <td align="center">Alex Carruth</td>
+    <td align="center">Brian Davis</td>
+    <td align="center">Gage Fringer</td>
+    <td align="center">Stepan Kalinin</td>
+    <td align="center">Kunal Patel</td>
   </tr>
 </table>
