@@ -112,10 +112,11 @@ In the project directory, you can run:
 * Added listings on the homepage to indicate common attributes across listed jobs (location and pay)
 * Combined both repositories (frontend and backend) into a single repository and setup launch with docker-compose
 
-# Changes from Project 3
-* When we inherited this project, the app was made up of two repositories, one holding the front end and one holding the back end. The previous build process was complex, required a complex setup process for both ends, and was not well explained. We restructured the two repositories into one single repository and made the build process simple by using Docker Compose.
-* Job Analysis
-* 
+# Changes Made In Phase 3
+* **Restructuring:** When we inherited this project, the app was made up of two repositories, one holding the front end and one holding the back end. The previous build process was complex, required a complex setup process for both ends, and was not well explained. We restructured the two repositories into one single repository and made the build process simple by using Docker Compose.
+* **Refactoring:** We added a message when creating job listings as a manger to indicate success or failure of creation. We also changed user creation so users must be created with a unique email as previously more than one account could belong to the same email. Additionally, we fixed the profile save method as previously saving the user profile in the settings would not save properly in the backend and generate an error in the back end.
+* **Job Analysis:**
+* **Interview Scheduling:**
 
 # Contributors
   <table>
